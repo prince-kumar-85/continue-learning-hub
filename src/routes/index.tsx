@@ -459,7 +459,8 @@ function Recommendations() {
 
 /* ───────────── Course continuation ───────────── */
 
-const modules = [
+type Lesson = { t: string; done?: boolean; current?: boolean; locked?: boolean; bookmarked?: boolean };
+const modules: { title: string; lessons: Lesson[] }[] = [
   { title: "Module 1 — Fundamentals", lessons: [{ t: "JSX revisited", done: true }, { t: "State & props", done: true }] },
   { title: "Module 2 — Hooks", lessons: [{ t: "useState patterns", done: true }, { t: "useReducer deep dive", done: true }, { t: "Custom hooks", done: true }] },
   { title: "Module 3 — Performance", lessons: [{ t: "Memoization", done: true }, { t: "Context performance", done: true, bookmarked: true }] },
