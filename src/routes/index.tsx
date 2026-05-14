@@ -149,7 +149,7 @@ function Greeting() {
     <div className="flex items-end justify-between">
       <div>
         <div className="text-sm text-muted-foreground">Wednesday, May 13</div>
-        <h1 className="text-3xl font-semibold tracking-tight mt-1">Welcome back, Amelia 👋</h1>
+        <h1 className="text-3xl font-semibold tracking-tight mt-1">Welcome back, Prince Kumar 👋</h1>
         <p className="text-muted-foreground mt-1.5">You're <span className="text-foreground font-medium">2 lessons</span> away from completing this week's goal.</p>
       </div>
       <div className="flex gap-2">
